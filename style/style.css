@@ -1,0 +1,203 @@
+body{
+    background-color: #f1f1f1;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Roboto-MediumItalic;
+    src: url(../fonts/Roboto-MediumItalic.ttf);
+}
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(../fonts/Roboto-Bold.ttf);;
+}
+@font-face {
+    font-family: Roboto-Light;
+    src: url(../fonts/Roboto-Light.ttf);
+}
+header{
+    background-color: #a6051a;
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    height: 100px;
+    /*width: 100%;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 50px;
+}
+.logo img{
+    width: 30%;
+}
+.dropbtn {
+    background-color: #1c9cd8;
+    color: #2c2c2c;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 16px;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    border-radius: 10px;
+    margin-right: 50px;
+  }
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #a6051a;
+    transition: 0.6s;
+  }
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    transition: 0.4s;
+  }
+  
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #a6051a;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    transition: 0.4s;
+  }
+  
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+ 
+.dropdown-content a:hover {
+    background-color: #1c9cd8;
+    transition: 0.4s;
+}
+
+
+.dropdown:hover .dropdown-content {display: block;}
+  
+
+.dropdown:hover .dropbtn {background-color: #a6051a;}
+
+.main{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1c9cd8;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Roboto-Light';	
+}
+.main p{
+    font-size: 20px;
+    font-family: 'Roboto-Bold';
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-justify: inter-word;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; 
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  
+
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; 
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  .flip-card-front img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .flip-card-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+  }
+  .showcase{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  footer{
+    background-color: #a6051a;
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    height: 100px;
+    /*width: 100%;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #projekt6{
+    width: 250px;
+    height: 200px;
+  }
+  .flip-card2 {
+    background-color: transparent;
+    width: 250px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; 
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  
