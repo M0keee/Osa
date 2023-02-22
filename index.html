@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="script.js"></script>
     <link rel="icon" href="" >  <!-- ikona -->
 </head>
 <body>
@@ -16,8 +17,8 @@
             <img src="img/logo.webp" alt="logo">
         </div>
         <div class="dropdown">
-            <button class="dropbtn">Menu</button>
-            <div class="dropdown-content">
+            <button class="dropbtn" onclick="myFuncton()">Menu</button>
+            <div id="myDropdown" class="dropdown-content">
               <a href="#">Link 1</a>
               <a href="#">Link 2</a>
               <a href="#">Link 3</a>
@@ -35,7 +36,7 @@
           <div class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
-                <img src="img/projekt1.webp">
+                <img src="img/projekt1.webp" id="projekat1">
                 <h1>John Doe</h1>             
               </div>
               <div class="flip-card-back">

@@ -371,3 +371,76 @@ footer {
   
 }
 
+@media (max-width:500px){
+
+
+  .dropbtn{
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 12.5px;
+    padding-right: 12.5px;
+  }
+
+  .dropdown-content{
+    font-size: 15px;
+    min-width: 80px;
+  }
+
+  .dropdown-content a{
+    font-size: 15px;
+  }
+
+  .main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+  }
+
+  .main h2{
+    font-size: 20px;
+  }
+  .main p{
+    font-size: 15px;
+  }
+
+
+  .showcase{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 300vh;
+  }
+  .leftShowcase{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .rightShowcase{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .flip-card{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  #projekat1{
+    width: 200px;
+    height: 200px;
+  }
+
+}
