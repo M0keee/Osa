@@ -11,7 +11,7 @@ body{
 }
 @font-face {
     font-family: Roboto-Bold;
-    src: url(../fonts/Roboto-Bold.ttf);;
+    src: url(../fonts/Roboto-Bold.ttf);
 }
 @font-face {
     font-family: Roboto-Light;
@@ -376,12 +376,17 @@ footer {
 
   .dropbtn{
     font-size: 15px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 12.5px;
-    padding-right: 12.5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 20px;
+    font-family: 'Roboto-Bold';
   }
-
+  #logo{
+    height: 50px;
+    width: 110px;
+  }
   .dropdown-content{
     font-size: 15px;
     min-width: 80px;
@@ -420,6 +425,7 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    border: none;
   }
 
   .rightShowcase{
@@ -428,19 +434,66 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    border: none;
   }
-
+  
   .flip-card{
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 525px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
-  }
-  #projekat1{
-    width: 200px;
-    height: 200px;
+    justify-content: flex-start;
+    border-radius: 8px;
   }
 
+  .flip-card-front img{
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    border-radius: 8px;
+  }
+
+  .flip-card-front {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+   
+  }
+
+  .flip-card-back {
+    display: flex;
+    flex-direction: column;   
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .flip-card-back a{
+    text-align: center;
+    margin-left: 25%;
+    margin-right: auto;
+    height: 40px;
+    width: 125px;
+    border-radius: 8px;
+  }
+
+  .flip-card-back p{
+    padding: 0;
+    margin: 10px;
+  }
+
+  footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 650px;
+  }
+
+  .PersonName{
+    display: grid;
+    
+  }
+
+  
 }
